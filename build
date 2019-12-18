@@ -2,5 +2,8 @@
 
 cd docker
 
-docker build . -t lcolling/fischer-docker:binder
-docker push lcolling/fischer-docker:binder
+docker build . -t lcolling/fischer-binder
+docker push lcolling/fischer-binder
+git add .
+git commit -m "updated"
+git push
