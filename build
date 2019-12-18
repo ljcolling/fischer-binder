@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd docker
+
+docker build . -t lcolling/fischer-docker:binder
