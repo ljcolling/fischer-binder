@@ -3,3 +3,4 @@
 cd docker
 
 docker build . -t lcolling/fischer-docker:binder
+docker push lcolling/fischer-docker:binder

@@ -1,5 +1,4 @@
-FROM lcolling/fischer-docker
-
+FROM lcolling/fischer-docker:canonical
 
 ENV NB_USER rstudio
 ENV NB_UID 1000
