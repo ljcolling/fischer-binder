@@ -43,7 +43,7 @@ RUN R --quiet -e "devtools::install_github('IRkernel/IRkernel')" && \
 
 RUN rm -rf ~/home/kitematic
 
-CMD jupyter notebook --ip 0.0.0.0
+#CMD jupyter notebook --ip 0.0.0.0
 
 
 
