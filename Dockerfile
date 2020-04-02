@@ -1,1 +1,1 @@
-FROM lcolling/fischer-docker:binder
+FROM lcolling/fischer-binder
